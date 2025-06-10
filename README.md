@@ -1,4 +1,4 @@
-# SAE2.05 – Site du Voyage Pédagogique à Montréal
+# Site du Voyage Pédagogique à Montréal
 
 Bienvenue sur le site du voyage pédagogique au Canada !  
 Ce projet a été réalisé dans le cadre de la SAE 2.05, dont l’objectif était de concevoir et développer un site web statique en HTML et CSS pour présenter un voyage pédagogique destiné aux étudiants de 3ème année de BUT Informatique.
