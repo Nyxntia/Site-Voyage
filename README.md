@@ -31,4 +31,4 @@ Pour visualiser le site chez vous, suivez ces étapes :
    - Double-cliquez sur le fichier `index.html` ou ouvrez-le dans votre navigateur.
 
 **Auteur :** Manel ASSAL  
-**Projet réalisé dans le cadre de la SAE 2.05 – BUT Informatique**
+
