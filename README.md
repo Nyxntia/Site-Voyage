@@ -8,8 +8,6 @@ Ce projet a été réalisé dans le cadre de la SAE 2.05, dont l’objectif éta
 - **HTML** : pour la structure des pages et l’utilisation des balises sémantiques.
 - **CSS** : pour la mise en forme et la personnalisation visuelle du site.
 
-Le site est entièrement statique, sans backend, et respecte les consignes de la SAE concernant l’utilisation de balises sémantiques.
-
 ## Tester le site en local
 
 Pour visualiser le site chez vous, suivez ces étapes :
