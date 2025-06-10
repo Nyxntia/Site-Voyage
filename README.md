@@ -3,11 +3,6 @@
 Bienvenue sur le site du voyage pédagogique au Canada !  
 Ce projet a été réalisé dans le cadre de la SAE 2.05, dont l’objectif était de concevoir et développer un site web statique en HTML et CSS pour présenter un voyage pédagogique destiné aux étudiants de 3ème année de BUT Informatique.
 
-## Présentation du Projet
-
-L'objectif principal de ce voyage est d’étudier le mode d’enseignement de l’informatique en Amérique du Nord, afin de comparer les méthodes pédagogiques et les pratiques académiques avec celles de la France.  
-En plus de l’aspect académique, ce séjour offre l’opportunité de découvrir la ville de Montréal, sa culture, ses quartiers animés et ses attractions emblématiques. Il s’agit ainsi de combiner apprentissage professionnel et immersion culturelle pour une expérience enrichissante.
-
 ## Technologies utilisées
 
 - **HTML** : pour la structure des pages et l’utilisation des balises sémantiques.
