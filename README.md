@@ -17,7 +17,7 @@ Pour visualiser le site chez vous, suivez ces étapes :
    git clone https://github.com/Nyxntia/Site-Voyage.git
    ```
 2. **Ouvrir le projet**
-   - Ouvrez le dossier cloné dans votre éditeur préféré (IntelliJ, VS Code, etc.).
+   - Ouvrez le dossier cloné dans un éditeur (IntelliJ, VS Code, etc.).
 3. **Lancer le site**
    - Double-cliquez sur le fichier `index.html` ou ouvrez-le dans votre navigateur.
 
