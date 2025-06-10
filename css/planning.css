@@ -1,0 +1,237 @@
+header {
+    text-align: center;
+    background-color: #fdfdfd;
+    padding: 20px 10px;
+    border-bottom: 2px solid #e8e8e8;
+    background-image: url('../images/canada.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+body {
+    font-family: 'Lora', serif; 
+    font-size: 18px; 
+    line-height: 1.8; 
+    color: #666;
+    background-color: #fdfdfd; 
+    margin: 0;
+    padding: 0;
+}
+
+
+main p {
+    font-size: 0.9em;
+    margin-bottom: 30px;
+    color: #666;
+
+}
+
+main {
+   
+        font-size: 1.1em;
+        margin-bottom: 30px;
+        color: #444;
+    
+}
+
+header img {
+    width: 400px;
+    height: auto;
+    padding-top: 70px;
+}
+
+header h1 {
+    font-size: 2.2em;
+    font-weight: 600;
+    color: #333;
+    margin-top: 10px;
+}
+
+nav {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #fefefe;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #555;
+    margin: 0 15px;
+    padding: 5px 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+nav a:hover {
+    color: #fff;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #444;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #444;
+    text-align: center;
+}
+
+
+
+h2 {
+    margin-bottom: 1em;
+}
+
+.title {
+    text-align: center;
+}
+
+.title p {
+    font-size: 2em;
+    letter-spacing: 0.5em;
+}
+
+.timeline {
+    margin: 5em auto;
+    max-width: 34.15em;
+}
+
+.checkpoint {
+    max-width: 34em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    position: relative;
+}
+
+.checkpoint div {
+    border: 2px solid #d4c4ae;
+    border-radius: 1em;
+    padding: 2em;
+    background-color: #f5e9dd; 
+}
+
+.checkpoint:nth-child(odd) {
+    border-left: 3px solid #d4c4ae; 
+    padding-left: 3em;
+    transform: translateX(17em);
+}
+
+.checkpoint:nth-child(even) {
+    border-right: 3px solid #d4c4ae;
+    padding-right: 3em;
+    transform: translateX(-17em);
+}
+
+.checkpoint:nth-child(odd)::before,
+.checkpoint:nth-child(even)::before {
+    content: '';
+    background: #d4c4ae; 
+    width: 3em;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.checkpoint:nth-child(odd)::before {
+    left: 0;
+}
+
+.checkpoint:nth-child(even)::before {
+    right: 0;
+}
+
+.checkpoint:nth-child(odd) div::before,
+.checkpoint:nth-child(even) div::before {
+    content: '';
+    background: #d4c4ae;
+    width: 0.8em;
+    height: 0.8em;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+
+.checkpoint:nth-child(odd) div::before {
+    left: -0.5em;
+}
+
+.checkpoint:nth-child(even) div::before {
+    right: -0.5em;
+}
+
+@media screen and (max-width:1150px) {
+    .timeline {
+        width: 80vw;
+    }
+    .timeline .checkpoint {
+        width: 100%;
+        transform: none;
+        padding-left: 0;
+        padding-right: 0;
+        border: none;
+    }
+    .timeline .checkpoint::before {
+        width: 3px;
+        height: 4em;
+        top: -2em;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .timeline .checkpoint div::before {
+        top: -0.5em;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #fdfdfd;
+    color: #777;
+    border-top: 1px solid #e8e8e8;
+    margin-top: 40px;
+}
+
+.retour-en-haut {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    display: none;
+}
+
+.retour-en-haut:hover {
+    background-color: #555;
+}
+
+body:has(:not(:root) > section) .retour-en-haut {
+    display: block;
+}
+
+footer p {
+    font-size: 0.9em;
+    color : #555
+}

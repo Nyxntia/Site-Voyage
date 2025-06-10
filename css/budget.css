@@ -1,0 +1,186 @@
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  background-color: #fdfdfd;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #fdfdfd;
+  padding: 20px 10px;
+  border-bottom: 2px solid #e8e8e8;
+  background-image: url('../images/canada.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+header img {
+  width: 400px;
+  height: auto;
+  padding-top: 70px;
+}
+
+nav {
+  text-align: center;
+  padding: 15px 0;
+  background-color: #fefefe;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1.1em;
+  color: #555;
+  margin: 0 15px;
+  padding: 5px 10px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+nav a:hover {
+  color: #fff;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+main {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+main h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #444;
+  text-align: center;
+}
+
+main ul {
+  font-size: 1.1em;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+main p {
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+main li {
+  font-size: 1em;
+  color: #666;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #fdfdfd;
+  color: #777;
+  border-top: 1px solid #e8e8e8;
+  margin-top: 40px;
+}
+
+footer p {
+  font-size: 0.9em;
+  color : #555
+}
+
+.retour-en-haut {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 20px;
+  display: none;
+}
+
+.retour-en-haut:hover {
+  background-color: #555;
+}
+
+body:has(:not(:root) > section) .retour-en-haut {
+  display: block;
+}
+
+.budget-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #fefaf5;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.budget-table thead {
+  background-color: #d4b59e;
+  color: #3e2c1c;
+}
+
+.budget-table thead th {
+  padding: 15px;
+  text-align: left;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.budget-table tbody tr {
+  background-color: #f8ece4;
+}
+
+.budget-table tbody td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #e2d6cb;
+  color: #5a4e44;
+}
+
+.budget-table tfoot td {
+  padding: 15px;
+  font-weight: bold;
+  background-color: #d4b59e;
+  color: #3e2c1c;
+  text-align: left;
+}
+
+.budget-table tfoot td:first-child {
+  text-align: left;
+}
+
+main {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+main h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #444;
+  text-align: center;
+}
+
+main h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #444;
+  text-align: center;
+}
+
+main p {
+  font-size: 1.1em;
+  margin-bottom: 30px;
+  color: #666;
+}
