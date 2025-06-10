@@ -5,8 +5,6 @@ Ce projet a été réalisé dans le cadre de la SAE 2.05, dont l’objectif éta
 
 ## Présentation du Projet
 
-Le site présente le voyage pédagogique qui aura lieu à Montréal (Canada) du 23 au 28 juin 2025, à la fin de l'année scolaire. Ce séjour s’adresse aux vingt étudiants de la promotion FA, accompagnés par M. BARREAU et Mme HOGUIN.
-
 L'objectif principal de ce voyage est d’étudier le mode d’enseignement de l’informatique en Amérique du Nord, afin de comparer les méthodes pédagogiques et les pratiques académiques avec celles de la France.  
 En plus de l’aspect académique, ce séjour offre l’opportunité de découvrir la ville de Montréal, sa culture, ses quartiers animés et ses attractions emblématiques. Il s’agit ainsi de combiner apprentissage professionnel et immersion culturelle pour une expérience enrichissante.
 
